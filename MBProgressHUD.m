@@ -336,10 +336,10 @@
 		
         // Add label
         label = [[UILabel alloc] initWithFrame:self.bounds];
-		
+        
         // Add details label
         detailsLabel = [[UILabel alloc] initWithFrame:self.bounds];
-		
+
 		taskInProgress = NO;
 		rotationTransform = CGAffineTransformIdentity;
     }
@@ -396,7 +396,8 @@
 		
         // Set label properties
         label.font = self.labelFont;
-        label.adjustsFontSizeToFitWidth = NO;
+        label.minimumFontSize = LABELFONTSIZE/2.0;
+        label.adjustsFontSizeToFitWidth = YES;
         label.textAlignment = UITextAlignmentCenter;
         label.opaque = NO;
         label.backgroundColor = [UIColor clearColor];
@@ -426,7 +427,8 @@
 			
             // Set label properties
             detailsLabel.font = self.detailsLabelFont;
-            detailsLabel.adjustsFontSizeToFitWidth = NO;
+            detailsLabel.minimumFontSize = LABELDETAILSFONTSIZE/2.0;
+            detailsLabel.adjustsFontSizeToFitWidth = YES;
             detailsLabel.textAlignment = UITextAlignmentCenter;
             detailsLabel.opaque = NO;
             detailsLabel.backgroundColor = [UIColor clearColor];
