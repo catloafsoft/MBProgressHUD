@@ -193,7 +193,7 @@
 		EA9AD22413D2685000D1F3E5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0440;
 				ORGANIZATIONNAME = "Catloaf Software, LLC";
 			};
 			buildConfigurationList = EA9AD22713D2685000D1F3E5 /* Build configuration list for PBXProject "MBProgressHUD" */;
