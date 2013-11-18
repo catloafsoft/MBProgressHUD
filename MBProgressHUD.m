@@ -194,12 +194,12 @@ static const CGFloat kDetailsLabelFontSize = 12.f;
 
 - (id)initWithView:(UIView *)view {
 	NSAssert(view, @"View must not be nil.");
-	id me = [self initWithFrame:view.bounds];
-	// We need to take care of rotation ourselfs if we're adding the HUD to a window
+	self = [self initWithFrame:view.bounds];
+	// We need to take care of rotation ourselves if we're adding the HUD to a window
 	if ([view isKindOfClass:[UIWindow class]]) {
 		[self setTransformForCurrentOrientation:NO];
 	}
-	return me;
+	return self;
 }
 
 - (id)initWithWindow:(UIWindow *)window {
