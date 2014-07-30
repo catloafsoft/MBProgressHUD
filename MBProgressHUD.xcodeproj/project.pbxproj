@@ -185,7 +185,7 @@
 			name = MBProgressHUDTests;
 			productName = MBProgressHUDTests;
 			productReference = EA9AD23D13D2685000D1F3E5 /* MBProgressHUDTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -193,6 +193,7 @@
 		EA9AD22413D2685000D1F3E5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0600;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Catloaf Software, LLC";
 			};
